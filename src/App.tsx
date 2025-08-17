@@ -29,7 +29,7 @@ function App() {
 
         <Intro onFinish={() => setShowIntro(false)} />
       ) : (
-        // Toàn bộ website chỉ render sau khi Intro biến mất
+        
         <>
         <NavbarMain/>
         <HeroMain/>

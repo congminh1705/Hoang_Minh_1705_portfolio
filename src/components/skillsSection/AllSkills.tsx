@@ -11,10 +11,6 @@ import SingleSkill from './SingleSkill';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../../framerMotion/variants'
 
-interface Props {
-  text: string;
-  imgSvg: React.ReactNode; 
-}
 
 const skills = [
     {
@@ -58,7 +54,7 @@ const skills = [
     },
 ]
 
-const AllSkills:React.FC <Props> = () => {
+const AllSkills:React.FC = () => {
   return (
     <div>
         <div className='flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto'>

@@ -5,7 +5,7 @@ interface Props {
   imgSvg: React.ReactNode;
 }
 
-const SingleSkill:React.FC <Props> = ({ imgSvg, text }) => {
+const SingleSkill:React.FC <Props> = ({ text, imgSvg }) => {
   return (
     <div className='hover:-translate-y-10 transition-all duration-500'>
         <div className='flex flex-col items-center gap-2 relative'>

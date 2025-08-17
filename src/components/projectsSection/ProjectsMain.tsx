@@ -4,13 +4,7 @@ import SingleProject from './SingleProject'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../../framerMotion/variants'
 
-interface MyComponentProps {
-  name: string;
-  year: string;
-  align: string;
-  image: string;
-  link: string;
-}
+
 const projects = [
     {
         name: "Troy Course Lab",
@@ -38,7 +32,7 @@ const projects = [
 ]
 
 
-const ProjectsMain:React.FC <MyComponentProps> = () => {
+const ProjectsMain:React.FC = () => {
   return (
     <div id = 'projects' className='max-w-[1200px] mx-auto px-4'>
         <motion.div
@@ -51,7 +45,7 @@ const ProjectsMain:React.FC <MyComponentProps> = () => {
         </motion.div>
         <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
             {projects.map((item, index) =>{
-                return <SingleProject key={index} name={item.name} year={item.year} align={item.align} image={item.image} />
+                return <SingleProject key={index} name={item.name} year={item.year} align={item.align} image={item.image}  link={item.link} />
             })}
         </div>
     </div>
