@@ -10,7 +10,7 @@ const projects = [
         name: "Troy Course Lab",
         year: "Founder & Project Executive • 2025",
         align: "left",
-        image: "../../public/images/TRLC.png",
+        image: "/images/TRLC.png",
         link: "#",
     },
 
@@ -18,7 +18,7 @@ const projects = [
         name: "Troy Tracker",
         year: "Founder & Project Executive • 2025",
         align: "right",
-        image: "../../public/images/TroyTracker.png",
+        image: "/images/TroyTracker.png",
         link: "#",
     },
 
@@ -26,7 +26,7 @@ const projects = [
         name: "Imacall",
         year: "BA & DEV • 2025",
         align: "left",
-        image: "../../public/images/Imacall.png",
+        image: "/images/Imacall.png",
         link: "#",
     },
 ]
