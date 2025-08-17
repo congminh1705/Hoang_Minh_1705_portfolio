@@ -57,7 +57,7 @@ const skills = [
 const AllSkills:React.FC = () => {
   return (
     <div>
-        <div className='flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto'>
+        <div className='flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto mt-10'>
             {skills.map((item,index) => {
               return (
                 <motion.div
